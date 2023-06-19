@@ -80,6 +80,10 @@ body {
     margin: 10px;
 }
 
+#cajaSignup a{
+    text-decoration: none;
+}
+
 #cajaSignup button {
     font-size: 24px;
     text-align: center;
