@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
 #imagen {
     display: block;
     margin-left: auto;
