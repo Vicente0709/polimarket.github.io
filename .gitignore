@@ -1,2 +1,7 @@
 ### JetBrains template
-.idea
+/.idea
+
+### Node js
+/node_modules
+package-lock.json
+package.json
