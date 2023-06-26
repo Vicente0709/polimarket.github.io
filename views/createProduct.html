@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Product</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/createProduct.css">
+    <link rel="icon" href="../images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <!--Todo: agregar nav de la pagina index-->
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset id="categorias">
+                <li>
+                    <article>
+                        <img src="../images/LibroImg.png" width="260px" height="120px">
+                        <p>Libros</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="../images/CompuImg.png" width="260px" height="120px">
+                        <p>Tecnología</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="../images/Producto3Img.png" width="260px" height="120px">
+                        <p>Producto 3</p>
+                    </article>
+                </li>
+            </fieldset>
+
+            <fieldset id="cajaInformacion">
+                <div id="informacion">
+                    <h3>Complete la información de tu producto</h3>
+
+                    <label for="titulo">Título de la publicación</label>
+                    <input id="titulo" type="text">
+                    <br>
+                    <label for="estado">Estado</label>
+                    <input list="opciones" id="estado">
+                    <datalist id="opciones">
+                        <option value="Nuevo">
+                        <option value="Usado">
+                    </datalist>
+                    <br>
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" cols="30" rows="3"></textarea>
+                    <br>
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" id="cantidad" max="20">
+                    <br>
+                    <label for="precio">Precio $</label>
+                    <input type="number" id="precio">
+                    <br>
+                    <input type="submit" id="agregar" value="Agregar">
+                </div>
+
+                <div id="dropzone">
+                    <p>Agregar o arrastra imágenes</p>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+    <!--
+    <footer>
+        <p>&copy; 2023 - Todos los derechos reservados</p>
+    </footer>
+    -->
+</body>
+</html>
