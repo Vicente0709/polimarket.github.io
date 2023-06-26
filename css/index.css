@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font-size: 100%;
+  font: inherit;
+}
+
+/* Inicio barra de navegacion */
+
+.navList {
+  position: fixed;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navList ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navList .logo {
+  width: auto;
+  height: auto;
+  max-height: 50px;
+}
+
+.navList li {
+  margin: 10px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #18a0fb;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.navList #btnLogNav {
+  margin: 0;
+  background-color: white;
+  color: #18a0fb;
+  border-color: #18a0fb;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+
+.navList #btnRegisterNav {
+  background-color: #18a0fb;
+  color: white;
+  border-color: #18a0fb;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+
+/*Fin barra de navegacion*/
+
+/*Inicio banner*/
+
+.imgBanner {
+  width: 100%;
+  height: auto;
+}
+/*Fin banner*/
+
+/*Inicio info*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+.info h2 {
+  text-align: center;
+}
+.info .infolib,
+.infoTec {
+  width: 50%;
+  height: 50px;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.info h3 {
+  text-align: center;
+}
+
+/*Fin info*/
