@@ -16,16 +16,27 @@ body {
   height: 50px;
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
-.navList ul {
+.navList .bar {
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.navList .logo {
+.navList .profile {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+.navList li {
+  margin: 10px;
+}
+.navList .navItem .logo {
   width: auto;
   height: auto;
   max-height: 50px;
@@ -43,11 +54,11 @@ body {
 }
 
 .navList #btnLogNav {
-  margin: 0;
   background-color: white;
   color: #18a0fb;
   border-color: #18a0fb;
   padding: 10px 30px;
+  border-width: 1px;
   border-radius: 5%;
 }
 
@@ -56,6 +67,7 @@ body {
   color: white;
   border-color: #18a0fb;
   padding: 10px 30px;
+
   border-radius: 5%;
 }
 
@@ -70,28 +82,47 @@ body {
 /*Fin banner*/
 
 /*Inicio info*/
-
 .info {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  padding: 10px;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-family: sans-serif;
-  height: 100vh; /* Ajusta la altura según tus necesidades */
+  justify-content: center;
+  
 }
-.info h2 {
-  text-align: center;
+.info #btnLib {
+  background-color: white;
+  color: #18a0fb;
+  border-color: #18a0fb;
+  padding: 10px 30px;
+  border-width: 1px;
+  border-radius: 5%;
 }
-.info .infolib,
-.infoTec {
-  width: 50%;
-  height: 50px;
-  flex-direction: column;
-  font-family: sans-serif;
-  height: 100vh; /* Ajusta la altura según tus necesidades */
+.info #btnTec {
+  background-color: white;
+  color: #18a0fb;
+  border-color: #18a0fb;
+  padding: 10px 30px;
+  border-width: 1px;
+  border-radius: 5%;
 }
-
-.info h3 {
-  text-align: center;
+.info #btnCourse {
+  background-color: white;
+  color: #18a0fb;
+  border-color: #18a0fb;
+  padding: 10px 30px;
+  border-width: 1px;
+  border-radius: 5%;
 }
 
 /*Fin info*/
+
+/*Inicio destacado*/
+
+/*Fin destacado*/
