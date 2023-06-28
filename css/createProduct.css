@@ -11,6 +11,68 @@ body {
     border: 1px solid red;
 }
 
+.navList {
+    position: fixed;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navList .bar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navList .profile {
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 25px;
+}
+.navList li {
+    margin: 10px;
+}
+.navList .navItem .logo {
+    width: auto;
+    height: auto;
+    max-height: 50px;
+}
+
+.navList li {
+    margin: 10px;
+}
+
+.navList a {
+    text-decoration: none;
+    color: #18a0fb;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.navList #btnLogNav {
+    background-color: white;
+    color: #18a0fb;
+    border-color: #18a0fb;
+    padding: 10px 30px;
+    border-width: 1px;
+    border-radius: 5%;
+}
+
+.navList #btnRegisterNav {
+    background-color: #18a0fb;
+    color: white;
+    border-color: #18a0fb;
+    padding: 10px 30px;
+
+    border-radius: 5%;
+}
+
 #categorias{
     max-width: 977px;
     max-height: 220px;
