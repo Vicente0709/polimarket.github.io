@@ -60,6 +60,7 @@ body {
   padding: 10px 30px;
   border-width: 1px;
   border-radius: 5%;
+  cursor: pointer;
 }
 
 .navList #btnRegisterNav {
@@ -67,8 +68,8 @@ body {
   color: white;
   border-color: #18a0fb;
   padding: 10px 30px;
-
   border-radius: 5%;
+  cursor: pointer;
 }
 
 /*Fin barra de navegacion*/
